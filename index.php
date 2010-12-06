@@ -229,7 +229,7 @@
 		</style>
 	</head>
 	<body style="background-color : #FFFFFF; overflow-x : hidden">		
-		<div style="background: url(http://www.tablefixedheader.com/fullpagedemo/logo.png) no-repeat scroll 98% top transparent;    height: 150px;margin:0 auto;padding:0;position:relative;text-align:left;width:980px;">
+		<div style="background: url(logo.png) no-repeat scroll 98% top transparent;    height: 150px;margin:0 auto;padding:0;position:relative;text-align:left;width:980px;">
 			<div style="background:transparent none repeat scroll 0 0;height:8em;margin:7px 0 14px;padding:1em;">
 				<div style="width:100%">	
 					<h1 style="font-family:'PT+Sans&subset=latin',Helvetica,Verdana,Arial,Sans-Serif;font-size:4em;margin:20px 0 0 8px;">
