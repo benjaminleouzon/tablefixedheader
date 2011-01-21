@@ -976,6 +976,8 @@
 			_body.scroll(function(){
 				
 				_headerscontainer[0].scrollLeft = _body[0].scrollLeft;
+
+				if(isIE6_7()) { $(_headerscontainer[0]).css('margin-left', -_body[0].scrollLeft + 'px'); }
 			});
 			
 			if (options.colratio.length == nbcol) {
