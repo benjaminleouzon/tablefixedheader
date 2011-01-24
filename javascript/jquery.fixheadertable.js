@@ -103,7 +103,14 @@
 		}
 		
 		function util_parseDate (format, date) {
-			
+                /*
+                * Function taken to jqGrid
+                * Thanks to jqGrid 
+                * Author: Mark Williams
+                * Dual licensed under the MIT and GPL licenses:
+                * http://www.opensource.org/licenses/mit-license.php
+                * http://www.gnu.org/licenses/gpl-2.0.html
+                */
 			var tsp = {m : 1, d : 1, y : 1970, h : 0, i : 0, s : 0}, k, hl, dM;
 			
 			if(date && date !== null && date !== undefined){
