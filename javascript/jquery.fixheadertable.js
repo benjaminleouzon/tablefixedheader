@@ -286,7 +286,10 @@
 			}
 			
 			function sortColumn (table, number, sens, th) {
-				
+			       /*
+                                * Function inspired by jqGrid
+                                * Author: Mark Williams
+                                */
 				if ((options.sortType.length != 0) && (options.sortType.length == nbcol)) {
 					
 					var type = options.sortType[number];
