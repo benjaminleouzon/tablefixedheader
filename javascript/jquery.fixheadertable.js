@@ -196,7 +196,7 @@
 			
 			var _table				= $(this);
 			
-			var main_wrapper		= null;
+			var _main_wrapper		= null;
 			
 			var nbcol 				= $('thead th', this).length;
 			
@@ -629,7 +629,7 @@
 	        		scrollwidth = 0; 
 	        	}
 	        	
-	        	var width = 0;
+	        	var width = 0, overflow;
 	        							
 				if (parseInt($(table).height()) > parseInt(options.height)) { 
 									
