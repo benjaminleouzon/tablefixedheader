@@ -35,10 +35,12 @@ div.t_fixed_header {
 	width			: 100%;
 }
 
+
 div.t_fixed_header * {
 	margin			: 0;
 	padding			: 0;
 }
+
 
 div.t_fixed_header table.head {
 	position		: relative;	
@@ -164,6 +166,11 @@ div.t_fixed_header.ui .body td {
 div.t_fixed_header.ui .body tr td {
 	border-width 	: 0 1px 1px 0;
 	border-style 	: solid;
+	background		: none;
+}
+
+div.t_fixed_header.ui .body.no-border tr td {
+	border 	: none;
 	background		: none;
 }
 
