@@ -1,0 +1,138 @@
+/* bootstrap theme*/
+
+.ui-state-default, .ui-widget-content, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{background:none;border:none;}
+
+
+div.t_fixed_header_main_wrapper.bootstrap {
+	border	: 1px solid #ccc
+	font-weight		: normal;
+	font-size		: 1.1em;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap  div.t_fixed_header_caption {
+	text-align		: center;
+	font-weight		: bold;
+	padding			: 0 5px;
+	height			: 30px;
+	line-height		: 30px;
+	border-width 	: 0 0 1px 0;
+	border-style 	: solid;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap  div.t_fixed_header_caption.toggle {
+	border-width 	: 0;	
+}
+
+div.t_fixed_header div.headtable {
+	border			: 0;	
+	overflow-x		: hidden;
+    overflow-y		: auto;
+}
+
+div.t_fixed_header.bootstrap .headtable th {
+    padding: 8px;
+    color: black;
+}
+div.t_fixed_header.bootstrap .headtable .table-headcenter th {
+	text-align 		: center;
+}
+div.t_fixed_header.bootstrap .headtable .table-condensed th {
+    padding: 4px 5px;
+}
+div.t_fixed_header.bootstrap td {
+    padding: 8px;
+}
+div.t_fixed_header.bootstrap tr:first-child td {
+    border-top:none;
+}
+
+div.t_fixed_header.bootstrap .table-condensed td, div.t_fixed_header.bootstrap .table-condensed td{
+    padding: 4px 5px;
+}
+
+div.t_fixed_header.bootstrap .headtable .table-bordered {
+	border: none;
+}
+
+div.t_fixed_header.bootstrap .headtable .table-bordered th{
+    border-left: 1px solid #ccc;
+}
+
+div.t_fixed_header.bootstrap .headtable .table-bordered th:first-child{
+	border-left: none;
+}
+
+div.t_fixed_header.bootstrap .body table.table-bordered{
+    border: none;
+}
+
+div.t_fixed_header.bootstrap .body .table-bordered td{
+    border-left: 1px solid #ccc;
+}
+
+div.t_fixed_header.bootstrap .body .table-bordered td:first-child{
+	border-left: none;
+}
+
+div.t_fixed_header.bootstrap .body .table-bordered tr:last-child{
+	border-bottom: none;
+}
+
+div.t_fixed_header.bootstrap .headtable th span.ui-resize {
+	background		: transparent;
+	cursor			: col-resize;
+	display			: inline;
+	float			: right;
+	height			: 20px;
+	margin			: -3px -5px -5px 0;
+	width			: 5px;
+	z-index			: 10000;
+}
+
+div.t_fixed_header div.body {
+	border-top: 1px solid #ccc;
+}
+
+div.t_fixed_header.bootstrap div.ui-resize-ghost {
+	display 		: none; 
+	position 		: absolute; 
+	top 			: 0; 
+	width 			: 2px; 
+	border			: none;
+}
+
+div.t_fixed_header_main_wrapper.ui-widget-header{
+	background: transparent;
+	border: 1px solid #ccc;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap div.pager {
+	border-width	: 0 0 0 0;
+	padding			: 4px 2px 2px 3px;
+	overflow		: hidden;
+	background-image: none;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap div.pager .button {
+	float			: right;
+	padding			: 4px 0;
+	cursor			: pointer;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap div.pager .button.noborder {
+	border-right-width : 0px;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap div.pager .button span {
+	margin			: 0 4px;
+}
+
+div.t_fixed_header_main_wrapper.bootstrap div.pager div.page_infos {
+	height			: 27px;
+	line-height		: 27px;
+	float			: right;
+	margin-right	: 10px;
+	font-weight		: normal;
+}
+

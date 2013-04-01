@@ -411,7 +411,7 @@
 			
 			function buildHeaders(table) {
 				
-				_headers = $('<table class="head"/>').append(_colgroup).append($('thead', table));
+				_headers = $('<table class="head '+table.className+'"/>').append(_colgroup).append($('thead', table));
 				
 				_headerscontainer.append(_headers);	
 				
