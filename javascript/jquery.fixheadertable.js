@@ -60,7 +60,9 @@
 			
 			minColWidth	 : 100,
 			
-			wrapper		 : true
+			wrapper		 : true,
+
+			forceScroll	 : false
 		};  
 		
 		var options = $.extend(defaults, options); 
@@ -631,7 +633,7 @@
 	        	
 	        	var width = 0;
 	        							
-				if (parseInt($(table).height()) > parseInt(options.height)) { 
+				if (parseInt($(table).height()) > parseInt(options.height) || options.forceScroll) {
 									
 					width = scrollwidth;
 					
