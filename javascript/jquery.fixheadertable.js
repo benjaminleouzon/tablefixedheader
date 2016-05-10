@@ -294,7 +294,11 @@
 					
 					var type = options.sortType[number];
 					
-					if (type == 'float') {						
+					if ($.isFunction(type)) {
+						
+						getSortKey = type;
+						
+					} else if (type == 'float') {						
 						
 						getSortKey = function(cell) {
 							
